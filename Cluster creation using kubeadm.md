@@ -287,6 +287,9 @@ kubectl get nodes
 ```
 
 ### Task 5: Deploy Container Networking Interface
+
+`This step is to be executed only if the nodes are not in the ready state`
+
 Go to **master** node and 
 Apply weave CNI (Container Network Interface) as shown below:
 ```
