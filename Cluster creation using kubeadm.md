@@ -328,12 +328,12 @@ kubectl exec -it <pod_name> -- /bin/bash
 Install curl in the container
 ```
 apt update
-apt install curl -y
+apt install -y dnsutils
 ```
-
-Run curl on the localhost (container) to verify the http installation.
 ```
-curl localhost 
+nslookup deb.debian.org
+```
+```
 exit
 ```
 
