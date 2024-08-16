@@ -15,6 +15,6 @@
 ## Table Of Contents
 * [Lab-1: Bootstrap a Kubernetes Cluster using Kubeadm](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Cluster%20creation%20using%20kubeadm.md)
 * [Lab-2: Node Labelling](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Node%20Labelling.md)
-* [Lab-3: Node Affiity and Node Anti Affinity](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Node%20Affinity%20and%20AntiAffinity.md)
+* [Lab-3: Jobs and Cronjobs](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Jobs%20and%20Cronjobs.md)
 * [Reference Links](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Reference%20Links.md)
 
