@@ -76,7 +76,7 @@ kubectl apply -f init.yaml
 kubectl get pod
 ```
 ```
-kubectl exec -it init-pod -c main-container
+kubectl exec -it init-pod -c main-container -- bash
 ```
 ```
 cd /app && ls
