@@ -17,6 +17,8 @@
 * [Lab-2: Jobs and Cronjobs](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Jobs%20and%20Cronjobs.md)
 * [Lab-3: Multi-containers](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Multi-containers.md)
 * [Lab-4: Deployment Strategy](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Deployment%20Strategy.md)
+* [Lab-5: Probes](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Probes.md)
+* [Lab-6: ConfigMap and Secrets](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/ConfigMap%20and%20Secret.md)
 * [Reference Links](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Reference%20Links.md)
   
 
