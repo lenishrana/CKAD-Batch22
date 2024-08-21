@@ -2,6 +2,7 @@
 
 
 ### Task 1: Rolling Update in Kubernetes 
+This is the default strategy
 
 ```
 vi dep.yaml 
