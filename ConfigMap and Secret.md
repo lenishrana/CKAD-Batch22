@@ -102,7 +102,7 @@ kubectl describe pod web-pod
 ```
 Enter the pod and check if the variable has been passed correctly or not
 ```
-kubectl exec -it web1-pod -- sh
+kubectl exec -it web-pod -- sh
 ```
 ```
 echo $db_user
