@@ -1,6 +1,25 @@
 ## ConfigMap & Secrets
 
 ### Task 1: Directly inject variables - Traditional Method
+##### Imperative
+```
+kubectl run pod1 --image nginx --env=db-user=admin --env=db_pwd=1234
+```
+Enter the pod and check if the variable has been passed correctly or not
+```
+kubectl exec -it pod1 -- bash
+```
+```
+echo $db_user
+```
+```
+echo $db_pwd
+```
+```
+env | grep db_
+```
+
+##### Declarative
 ```
 vi env.yaml
 ```
