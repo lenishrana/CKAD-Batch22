@@ -56,15 +56,15 @@ kubectl describe cm cm-1
 ```
 Inject the ConfigMap into the Pod Yaml File
 ```
-vi env1.yaml
+vi env.yaml
 ```
 ```yaml
 apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    app: web1
-  name: web1-pod
+    app: web
+  name: web-pod
 spec:
   containers:
   - image: httpd
@@ -76,10 +76,10 @@ spec:
         name: cm-1
 ```
 ```
-kubectl apply -f env1.yaml
+kubectl apply -f env.yaml
 ```
 ```
-kubectl describe pod web1-pod
+kubectl describe pod web-pod
 ```
 Enter the pod and check if the variable has been passed correctly or not
 ```
@@ -108,15 +108,15 @@ kubectl describe cm cm-1
 ```
 Inject particular variable from the ConfigMap into the Pod Yaml File
 ```
-vi env.yaml
+vi env1.yaml
 ```
 ```yaml
 apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    app: web
-  name: web-pod
+    app: web1
+  name: web1-pod
 spec:
   containers:
   - image: httpd
@@ -131,14 +131,14 @@ spec:
           key: db_pwd
 ```
 ```
-kubectl apply -f env.yaml
+kubectl apply -f env1.yaml
 ```
 ```
-kubectl describe pod web-pod
+kubectl describe pod web1-pod
 ```
 Enter the pod and check if the variable has been passed correctly or not
 ```
-kubectl exec -it web-pod -- sh
+kubectl exec -it web1-pod -- sh
 ```
 ```
 echo $db_user
