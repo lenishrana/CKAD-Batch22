@@ -19,6 +19,11 @@
 * [Lab-4: Deployment Strategy](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Deployment%20Strategy.md)
 * [Lab-5: Probes](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Probes.md)
 * [Lab-6: ConfigMap and Secrets](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/ConfigMap%20and%20Secret.md)
+* [Lab-7: Resource Quota](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Resource%20Quotas.md)
+* [Lab-8: Node Labelling](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Node%20Labelling.md)
+* [Lab-9: Node Affinity and Node Anti Affinity](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Node%20Affinity%20and%20AntiAffinity.md)
+* [Lab-10: Pod Affinity and Pod Anti Affinity](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Pod%20Affinity%20and%20AntiAffinity.md)
+* [Lab-11: Taints and Tolerations](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Taints%20and%20Tolerations.md)
 * [Reference Links](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Reference%20Links.md)
   
 
