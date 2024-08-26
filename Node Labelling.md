@@ -49,7 +49,7 @@ kubectl delete -f nlns-pod.yaml
 ```
 kubectl label nodes <node_name> disktype-   
 ```
-`-(minus)` for removing label
+`-(hyphen)` for removing label
  
 Verify that the label is deleted.
 ```
