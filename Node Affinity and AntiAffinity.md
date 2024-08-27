@@ -62,7 +62,7 @@ spec:
           - key: disktype
             operator: In
             values:
-            - SSD
+            - ssd
 ```
 Save the file using "ESCAPE + :wq!"
 
