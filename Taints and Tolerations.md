@@ -13,7 +13,7 @@ kubectl run pod-1 --image nginx
 ```
 kubectl get po -o wide
 ```
-```
+
 Taint Node1 to NoSchedule
 ```
 kubectl taint nodes node1 key1=value1:NoSchedule
