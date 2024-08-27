@@ -13,7 +13,37 @@ kubectl run pod-1 --image nginx
 ```
 kubectl get po -o wide
 ```
+Label the node
+```
+kubectl label nodes node1 disktype=ssd
+```
+Deploy a pod with the same Node Selector
+```
+vi pod.yaml
+```
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod1
+  labels:
+    env: test
+spec:
+  containers:
+  - name: pod1-crt
+    image: nginx
+  nodeSelector:
+    disktype: ssd
 
+```
+Apply the yaml file
+```
+kubectl apply -f pod.yaml
+```
+Check on which Node it gets scheduled.
+```
+kubectl get pods -o wide
+```
 Taint Node1 to NoSchedule
 ```
 kubectl taint nodes node1 key1=value1:NoSchedule
