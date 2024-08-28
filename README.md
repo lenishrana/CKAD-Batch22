@@ -24,6 +24,11 @@
 * [Lab-9: Node Affinity and Node Anti Affinity](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Node%20Affinity%20and%20AntiAffinity.md)
 * [Lab-10: Pod Affinity and Pod Anti Affinity](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Pod%20Affinity%20and%20AntiAffinity.md)
 * [Lab-11: Taints and Tolerations](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Taints%20and%20Tolerations.md)
+* [Lab-12: Network Policy](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Network%20Policy.md)
+* [Lab-13: Helm](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Helm.md)
+* [Lab-14: Metrics Server](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Metric%20Server.md)
+* [Lab-15: RBAC](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/RBAC.md)
+* [Lab-16: Security Context](https://github.com/Mehar-Nafis/CKAD-Batch22/blob/main/Security%20Context.md)
 * [Reference Links](https://github.com/Mehar-Nafis/CKAD-Batch15/blob/main/Reference%20Links.md)
   
 
